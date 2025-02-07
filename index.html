@@ -5,12 +5,12 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Obsys</title>
+  
+  <link rel="stylesheet" href="https://unpkg.com/sheryjs/dist/Shery.css" />
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
   <link href="
 https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.css
 " rel="stylesheet">
-
-  <link rel="stylesheet" href="https://unpkg.com/sheryjs/dist/Shery.css" />
-  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
 </head>
 
@@ -32,8 +32,8 @@ https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.
       <h2>Now</h2>
     </div>
   </div>
-  <div id="main">
-    <div id="page1">
+  <div id="main" >
+    <div id="page1" data-scroll>
       <div id="nav">
         <svg class="brand__svg" width="71" height="27" viewBox="0 0 71 27">
           <path
@@ -73,21 +73,21 @@ https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.
           <h4>Contact Us</h4>
         </div>
       </div>
-      <div class="hero" id="hero1">
+      <div class="hero" id="hero1"  data-scroll-speed="-2.5">
         <h1>We Design</h1>
       </div>
-      <div class="hero" id="hero2">
+      <div class="hero" id="hero2"  data-scroll-speed="-2.5">
         <h1>Unique</h1>
       </div>
-      <div class="hero" id="hero3">
+      <div class="hero" id="hero3"  data-scroll-speed="-2.5">
         <h1>Web /</h1>
         <h1>Graphics</h1>
       </div>
-      <div class="hero" id="hero4">
+      <div class="hero" id="hero4"  data-scroll-speed="-2.5">
         <h1>Experiences</h1>
       </div>
     </div>
-    <div id="page2">
+    <div id="page2" data-scroll>
       <div id="video-container">
         <div id="video-cursor">
           <i class="ri-play-large-fill"></i>
@@ -96,8 +96,8 @@ https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.
         <video src="./Obsys.mp4"></video>
       </div>
     </div>
-    <div id="page3"></div>
-    <div id="page4">
+    <div id="page3" data-scroll></div>
+    <div id="page4" data-scroll>
       <div id="page4-content">
         <h1>About Obys</h1>
         <div class="underline"></div>
@@ -143,7 +143,7 @@ https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.
         <div class="underline"></div>
       </div>
     </div>
-    <div id="page5">
+    <div id="page5" data-scroll>
       <div class="elem">
         <h1>Sport - Fashion - <span>Technology</span> -</h1>
         <h1>Sport - Fashion - <span>Technology</span> -</h1>
@@ -187,15 +187,13 @@ https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.
     </div>
     <h5 class="hello">Obys Agency c 2025</h5>
   </div>
-  <script src="
-  https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js
-"></script>
+  <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll/dist/locomotive-scroll.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
-    integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
-    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+  crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
-    integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
-    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+  crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script type="text/javascript" src="https://unpkg.com/sheryjs/dist/Shery.js"></script>
   <script src="./script.js"></script>
 </body>
